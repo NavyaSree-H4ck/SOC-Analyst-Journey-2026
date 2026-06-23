@@ -2,8 +2,10 @@
                                                1.OSI Model
 
 1.1 What is the OSI Model?
+
 The Open Systems Interconnection (OSI) Model is a framework developed by the International Organization for Standardization (ISO) that describes how data moves from one device to another over a network.
 When two devices communicate, many things happen:
+
 Applications generate data. 
 Data is formatted and encrypted. 
 Connections are established. 
@@ -16,14 +18,17 @@ Electrical signals or wireless waves carry the information.
 
 a) Standardization
 The OSI model provides a standard framework for network communication. It ensures that devices and software from different vendors can communicate with each other using common protocols.
+
 Example: A Windows PC can communicate with a Linux server through a Cisco router.
 
 b) Modularity
 The communication process is divided into seven layers, and each layer performs a specific task independently. Changes or problems in one layer usually do not affect other layers.
+
 Example: An application can be updated without changing the routing process.
 
 c) Easier Troubleshooting
 Since networking is divided into layers, problems can be isolated to a specific layer, making troubleshooting easier.
+
 Examples:
 Layer 1 → Cable issue
 Layer 2 → MAC address or switch issue
