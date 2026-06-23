@@ -3,6 +3,7 @@
                                                1.OSI Model
 
 1.1 What is the OSI Model?
+
 The Open Systems Interconnection (OSI) Model is a framework developed by the International Organization for Standardization (ISO) that describes how data moves from one device to another over a network.
 When two devices communicate, many things happen:
 Applications generate data. 
