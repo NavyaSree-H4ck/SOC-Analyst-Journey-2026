@@ -13,12 +13,15 @@ MAC addresses are used.
 Electrical signals or wireless waves carry the information. 
 
 1.2 Why is the OSI Model Important?
+
 a) Standardization
 The OSI model provides a standard framework for network communication. It ensures that devices and software from different vendors can communicate with each other using common protocols.
 Example: A Windows PC can communicate with a Linux server through a Cisco router.
+
 b) Modularity
 The communication process is divided into seven layers, and each layer performs a specific task independently. Changes or problems in one layer usually do not affect other layers.
 Example: An application can be updated without changing the routing process.
+
 c) Easier Troubleshooting
 Since networking is divided into layers, problems can be isolated to a specific layer, making troubleshooting easier.
 Examples:
@@ -27,6 +30,7 @@ Layer 2 → MAC address or switch issue
 Layer 3 → IP address or routing problem
 Layer 4 → Port blocked
 Layer 7 → Application failure
+
 d) Protocol Development
 Protocols are designed for specific layers and perform dedicated functions.
 Examples:
@@ -35,19 +39,23 @@ TCP/UDP → Transport Layer
 IP → Network Layer
 Ethernet → Data Link Layer
 This separation allows new protocols to be developed without affecting other layers.
+
 e) Interoperability
 Devices and software from different manufacturers can work together because they follow standard protocols.
 Example:
 Client (Windows) → Cisco Router → ISP Router → Linux Server
 Even though different vendors are involved, communication is possible because they use common protocols such as TCP/IP and Ethernet.
+
 f) Simplifies Maintenance
 Problems or upgrades in one layer can often be handled without affecting the entire network.
 Example: Replacing an Ethernet cable (Layer 1) does not require changes to HTTP or TCP.
+
 g) Provides Flexibility
 New technologies and protocols can be introduced without redesigning the whole network architecture.
 Example: IPv6 was introduced at Layer 3 while higher-layer protocols like HTTP and HTTPS remained unchanged.
 h) Helps Understand Data Flow
 The OSI model explains how data travels from sender to receiver through different layers
+
 
 Sender Side: Encapsulation 
 Suppose you type: https://www.google.com on your browser.
@@ -62,6 +70,7 @@ Convert everything into binary bits.
 Send the bits through Wi-Fi or Ethernet and data reaches the google server.
 
 Receiver Side: Decapsulation
+
 The request has already travelled across the Internet and arrived at Google's server.
 Now Google's server must:
 Receive the binary bits through its Ethernet cable or Wi-Fi. 
