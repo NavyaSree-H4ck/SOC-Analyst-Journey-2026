@@ -6,12 +6,18 @@
 The Open Systems Interconnection (OSI) Model is a framework developed by the International Organization for Standardization (ISO) that describes how data moves from one device to another over a network.
 When two devices communicate, many things happen:
 
-Applications generate data. 
-Data is formatted and encrypted. 
+Applications generate data.
+
+Data is formatted and encrypted.
+
 Connections are established. 
+
 Data is divided into smaller pieces. 
-IP addresses are assigned. 
-MAC addresses are used. 
+
+IP addresses are assigned.
+
+MAC addresses are used.
+
 Electrical signals or wireless waves carry the information. 
 
 1.2 Why is the OSI Model Important?
