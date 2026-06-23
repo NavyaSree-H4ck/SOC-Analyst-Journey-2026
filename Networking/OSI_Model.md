@@ -7,7 +7,6 @@ The Open Systems Interconnection (OSI) Model is a framework developed by the Int
 When two devices communicate, many things happen:
 
 Applications generate data.
-
 Data is formatted and encrypted.
 
 Connections are established. 
